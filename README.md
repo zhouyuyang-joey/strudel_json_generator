@@ -25,7 +25,7 @@ cd strudel_json_generator
 
 
 ```
-python strudel_json_generator.py -p <path to the sample folders> -u <Your github username> -r <your github repo name>
+python generator.py -p <path to the sample folders> -u <Your github username> -r <your github repo name>
 ```
 
 To be more specific:
