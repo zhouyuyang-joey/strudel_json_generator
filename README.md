@@ -5,7 +5,10 @@ A Python script that can quickly generate a JSON file containing your sample inf
 ```python3```
 
 ## Usage
-1. First, organize your audio samples into a root directory where each subfolder represents a sample category (e.g., `kick`, `perc`, `synth`,`vocal`). ![alt text](media/image-0.png)
+1. First, organize your audio samples into a root directory where each subfolder represents a sample category (e.g., `kick`, `perc`, `synth`,`vocal`). 
+
+
+![alt text](media/image-0.png)
 
 2. Clone my repository from terminal (or, if you are on Windows, open your command-line tool):
 ```
@@ -45,15 +48,21 @@ This command will create a `strudel.json` file in the current directory.
 
 ## Final steps
 - Create a GitHub repository with the same name as the one you specified in the command line.
+
 ![alt text](media/image-1.png)
+
 ![alt text](media/image-2.png)
 
 
 - Upload all your sample folders & `strudel.json` to your GitHub repo (you probably will need to drag the folders to upload all the files).
+
 ![alt text](media/image-3.png)
+
 ![alt text](media/image-4.png)
+
 And don't forget to commit changes.
 ![alt text](media/image-5.png)
+
 
 Now, you should be able to load your samples in Strudel using GitHub 🎉🎉🎉
 
