@@ -47,11 +47,11 @@ def create_strudel_json(root_path, github_user, github_repo, github_branch):
     if not found_audio_files:
         print("Warning: No audio files found in the subdirectories of the specified path.")
         
-    output_filename = 'strudel.json'
+    output_filename = os.path.join(root_path, 'strudel.json')
     try:
         with open(output_filename, 'w', encoding='utf-8') as json_file:
             json.dump(strudel_data, json_file, indent=4, ensure_ascii=False)
-        print(f"Successfully generated '{output_filename}' in the current directory.")
+        print(f"Successfully generated 'strudel.json' inside '{root_path}'")
 
     except IOError as e:
         print(f"Error writing to file {output_filename}: {e}", file=sys.stderr)
